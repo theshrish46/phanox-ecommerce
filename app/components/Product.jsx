@@ -5,7 +5,7 @@ import earphones from './../../public/assets/earphones_a_1.webp'
 
 const product = () => {
     return (
-        <div className='w-11/12 h-auto my-20 mx-auto py-4 px-6 border-2'>
+        <div className='w-11/12 h-auto my-20 mx-auto py-4 px-1 border-2'>
             <div className='w-1/4 bg-white px-2 pb-4 pt-2 rounded-md'>
                 <Image src={earphones} alt='img' className='bg-sec w-full h-80 rounded-md hover:bg-red-500' />
                 <div className='my-3 mx-2 grid grid-cols-6 justify-items-start place-items-center'>
