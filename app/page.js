@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Product from "./components/Product";
+import ProductPage from "./components/ProductPage";
 
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
     <div className='w-full h-auto my-5'>
       <Navbar />
       <Header />
-      <Product />
+      <ProductPage />
       {/* 
       <Footer /> */}
     </div>
