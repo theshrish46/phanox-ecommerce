@@ -4,15 +4,29 @@ import Image from 'next/image'
 
 const Header = () => {
     return (
-        <div className='w-11/12 h-80 mx-auto py-4 px-6 rounded-2xl bg-tri relative flex justify-between items-center'>
-            <div className='absolute -top-24 right-0'>
-                <Image src={banner} alt="logo" className='w-full h-full' />
+        <>
+            <div className='
+                    w-11/12 mx-auto my-5 px-2 py-4 bg-quad rounded-xl relative flex flex-col justify-center items-center 
+                    mobile:h-60 mobile:px-6 mobile:py-6
+                    laptop:h-96 laptop:px-8 laptop:py-8
+                    
+                    '>
+                <div className='
+                    mobile:absolute mobile:-top-8 mobile:-right-6 mobile:w-[20rem] mobile:h-[20rem]
+                    tablet:w-[25rem] tablet:h-[25rem]
+                    laptop:w-[30rem] laptop:h-[30rem]
+                    
+                    '>
+                    <Image src={banner} alt='logo' className=''/>
+                </div>
+                <div className='mobile:self-start'>
+                    <h2 className='text-xl mobile:text-3xl mobile:leading-relaxed laptop:text-5xl laptop:leading-normal text-white'>Large Text</h2>
+                    <h2 className='text-xl mobile:text-3xl mobile:leading-relaxed laptop:text-5xl laptop:leading-normal text-white'>Large Text2</h2>
+                    <h2 className='text-xl mobile:text-3xl mobile:leading-relaxed laptop:text-5xl laptop:leading-normal text-white'>discount</h2>
+                    <h2 className='text-xl mobile:text-3xl mobile:leading-relaxed laptop:text-5xl laptop:leading-normal text-white'>sale time</h2>
+                </div>
             </div>
-            <div>
-                <h2 className='self-center text-pri text-5xl leading-relaxed'>Listen to the<br></br>best Music out there</h2>
-                <button className='bg-sec py-2 px-5 text-base text-quad font-semibold rounded-md'>Sale</button>
-            </div>
-        </div>
+        </>
     )
 }
 
