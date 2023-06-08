@@ -6,11 +6,12 @@ import Product from "./components/Product";
 
 export default function Home() {
   return (
-    <div className='w-full h-auto py-10'>
+    <div className='w-full h-auto my-5'>
       <Navbar />
       <Header />
       <Product />
-      <Footer />
+      {/* 
+      <Footer /> */}
     </div>
   )
 }
