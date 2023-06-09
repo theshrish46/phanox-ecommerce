@@ -1,18 +1,21 @@
-import Footer from "./components/Footer";
+"use client"
+
 import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Product from "./components/Product";
 import ProductPage from "./components/ProductPage";
+import product from "./components/Product";
+import Footer from "./components/Footer";
 
 
-export default function Home() {
+import Layout from './layout'
+
+
+
+export default function Home({ Component, pageProps }) {
   return (
-    <div className='w-full h-auto my-5'>
-      <Navbar />
+    <div>
       <Header />
       <ProductPage />
-      {/* 
-      <Footer /> */}
+      <Footer />
     </div>
   )
 }

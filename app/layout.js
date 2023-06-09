@@ -1,5 +1,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import Head from 'next/head'
+import Navbar from './components/Navbar'
+import Foobar from './components/Foobar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,10 +15,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-
+        <title>Phanoax Ecommerce</title>
       </head>
-
-      <body className={inter.className}>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Foobar />
+      </body>
     </html>
   )
 }

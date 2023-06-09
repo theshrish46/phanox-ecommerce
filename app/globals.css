@@ -9,6 +9,6 @@
     @apply scroll-smooth 
   }
   body {
-    @apply bg-pri w-screen h-auto
+    @apply bg-pri
   }
 }
