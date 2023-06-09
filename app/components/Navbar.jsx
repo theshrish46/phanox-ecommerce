@@ -9,7 +9,7 @@ const Navbar = () => {
                     Phanoax
                 </div>
                 <div className='flex justify-center relative'>
-                    <GiShoppingBag className='' />
+                    <GiShoppingBag className='cursor-pointer' />
                     <span className='absolute -top-6 -right-4 mobile:-right-6 bg-red-500 text-base py-1 px-2 rounded-full'>0</span>
                 </div>
             </div>

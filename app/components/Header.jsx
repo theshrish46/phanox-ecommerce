@@ -6,14 +6,14 @@ const Header = () => {
     return (
         <>
             <div className='
-                    w-11/12 mx-auto my-5 px-2 py-4 bg-quad rounded-xl relative flex flex-col justify-center items-center 
+                    w-11/12 mx-auto my-6 mb-8 px-2 py-4 bg-banner rounded-xl relative flex flex-col justify-center items-center 
                     mobile:h-60 mobile:px-6 mobile:py-6
                     laptop:h-96 laptop:px-8 laptop:py-8
                     
                     '>
                 <div className='
                     mobile:absolute mobile:-top-8 mobile:-right-6 mobile:w-[20rem] mobile:h-[20rem]
-                    tablet:w-[25rem] tablet:h-[25rem]
+                    tablet:w-[20rem] tablet:h-[20rem]
                     laptop:w-[30rem] laptop:h-[30rem]
                     
                     '>
